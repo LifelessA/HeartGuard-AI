@@ -757,7 +757,7 @@ def initialize_app():
     # Load data
     @st.cache_data
     def load_data():
-        data = pd.read_csv('Heart_disease_cleveland_new.csv')
+        data = pd.read_csv('UCI.csv')
         return data
     
     data = load_data()
@@ -1125,3 +1125,4 @@ RECOMMENDATIONS:
 
 if __name__ == "__main__":
     main()
+
